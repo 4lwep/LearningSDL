@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/alfre/Desktop/SDL_test_vita/build/cmake_install.cmake"
+		"/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

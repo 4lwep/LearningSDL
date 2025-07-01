@@ -51,8 +51,15 @@ add_executable(${PROJECT_NAME}
 
 # Library to link to (drop the -l prefix). This will mostly be stubs.
 target_link_libraries(${PROJECT_NAME}
+  SDL2_image
   SDL2
   m
+  jpeg
+  png
+  webp
+  webpdemux
+  -Wl,--whole-archive pthread -Wl,--no-whole-archive
+  z
   SceAudio_stub
   SceAudioIn_stub
   SceCtrl_stub
@@ -64,6 +71,11 @@ target_link_libraries(${PROJECT_NAME}
   SceMotion_stub
   SceDisplay_stub
   SceSysmodule_stub
+  vitaGL
+  SceGxm_stub
+  #GLESv2
+  #EGL
+  SceIme_stub
 )
 
 ## Create Vita files
@@ -77,4 +89,5 @@ vita_create_vpk(${PROJECT_NAME}.vpk ${VITA_TITLEID} ${PROJECT_NAME}.self
   FILE sce_sys/livearea/contents/bg.png sce_sys/livearea/contents/bg.png
   FILE sce_sys/livearea/contents/startup.png sce_sys/livearea/contents/startup.png
   FILE sce_sys/livearea/contents/template.xml sce_sys/livearea/contents/template.xml
+  FILE personaje.png personaje.png
 )

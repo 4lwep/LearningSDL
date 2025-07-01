@@ -1,5 +1,5 @@
 CMakeFiles/test_project.dir/main.c.obj: \
- /home/alfre/Desktop/SDL_test_vita/main.c \
+ /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/main.c \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL.h \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_main.h \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_stdinc.h \
@@ -101,4 +101,6 @@ CMakeFiles/test_project.dir/main.c.obj: \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_version.h \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_locale.h \
  /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_misc.h \
- /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdbool.h
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdbool.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL_image.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/SDL2/SDL.h

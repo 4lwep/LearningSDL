@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "sdl_image.h": "c",
+        "array": "c",
+        "deque": "c",
+        "list": "c",
+        "string": "c",
+        "vector": "c",
+        "string_view": "c",
+        "span": "c"
+    }
+}

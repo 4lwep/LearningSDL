@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_test_vita
+CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_test_vita/build
+CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build
 
 # Utility rule file for test_project.vpk-vpk.
 
@@ -67,20 +67,21 @@ include CMakeFiles/test_project.vpk-vpk.dir/compiler_depend.make
 include CMakeFiles/test_project.vpk-vpk.dir/progress.make
 
 CMakeFiles/test_project.vpk-vpk: test_project.vpk.out
-	/usr/bin/cmake -E copy /home/alfre/Desktop/SDL_test_vita/build/test_project.vpk.out test_project.vpk
+	/usr/bin/cmake -E copy /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.vpk.out test_project.vpk
 
 test_project.vpk.out: test_project.vpk_param.sfo
 test_project.vpk.out: test_project.self
-test_project.vpk.out: /home/alfre/Desktop/SDL_test_vita/sce_sys/icon0.png
-test_project.vpk.out: /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/bg.png
-test_project.vpk.out: /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/startup.png
-test_project.vpk.out: /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/template.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building vpk test_project.vpk"
-	/usr/local/vitasdk/bin/vita-pack-vpk -a /home/alfre/Desktop/SDL_test_vita/sce_sys/icon0.png=sce_sys/icon0.png -a /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/bg.png=sce_sys/livearea/contents/bg.png -a /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/startup.png=sce_sys/livearea/contents/startup.png -a /home/alfre/Desktop/SDL_test_vita/sce_sys/livearea/contents/template.xml=sce_sys/livearea/contents/template.xml -s /home/alfre/Desktop/SDL_test_vita/build/test_project.vpk_param.sfo -b /home/alfre/Desktop/SDL_test_vita/build/test_project.self /home/alfre/Desktop/SDL_test_vita/build/test_project.vpk.out
+test_project.vpk.out: /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/icon0.png
+test_project.vpk.out: /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/bg.png
+test_project.vpk.out: /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/startup.png
+test_project.vpk.out: /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/template.xml
+test_project.vpk.out: /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/personaje.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building vpk test_project.vpk"
+	/usr/local/vitasdk/bin/vita-pack-vpk -a /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/icon0.png=sce_sys/icon0.png -a /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/bg.png=sce_sys/livearea/contents/bg.png -a /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/startup.png=sce_sys/livearea/contents/startup.png -a /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/sce_sys/livearea/contents/template.xml=sce_sys/livearea/contents/template.xml -a /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/personaje.png=personaje.png -s /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.vpk_param.sfo -b /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.self /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.vpk.out
 
 test_project.vpk_param.sfo: test_project.self
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating param.sfo for test_project.vpk"
-	/usr/local/vitasdk/bin/vita-mksfoex -d PARENTAL_LEVEL=1 -d PARENTAL_LEVEL=1 -s APP_VER=01.00 -s TITLE_ID=VSDK00007 "SDL Window" /home/alfre/Desktop/SDL_test_vita/build/test_project.vpk_param.sfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating param.sfo for test_project.vpk"
+	/usr/local/vitasdk/bin/vita-mksfoex -d PARENTAL_LEVEL=1 -d PARENTAL_LEVEL=1 -s APP_VER=01.00 -s TITLE_ID=VSDK00007 "SDL Window" /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.vpk_param.sfo
 
 CMakeFiles/test_project.vpk-vpk.dir/codegen:
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/codegen
@@ -100,6 +101,6 @@ CMakeFiles/test_project.vpk-vpk.dir/clean:
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/clean
 
 CMakeFiles/test_project.vpk-vpk.dir/depend:
-	cd /home/alfre/Desktop/SDL_test_vita/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfre/Desktop/SDL_test_vita /home/alfre/Desktop/SDL_test_vita /home/alfre/Desktop/SDL_test_vita/build /home/alfre/Desktop/SDL_test_vita/build /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project.vpk-vpk.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfre/Desktop/SDL_learning/SDL_triangle_vita /home/alfre/Desktop/SDL_learning/SDL_triangle_vita /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project.vpk-vpk.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_test_vita
+CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_test_vita/build
+CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build
 
 # Utility rule file for test_project-velf.
 
@@ -67,8 +67,8 @@ include CMakeFiles/test_project-velf.dir/compiler_depend.make
 include CMakeFiles/test_project-velf.dir/progress.make
 
 CMakeFiles/test_project-velf: test_project
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Converting to Sony ELF test_project.velf"
-	/usr/local/vitasdk/bin/vita-elf-create /home/alfre/Desktop/SDL_test_vita/build/test_project /home/alfre/Desktop/SDL_test_vita/build/test_project.velf
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Converting to Sony ELF test_project.velf"
+	/usr/local/vitasdk/bin/vita-elf-create /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/test_project.velf
 
 CMakeFiles/test_project-velf.dir/codegen:
 .PHONY : CMakeFiles/test_project-velf.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/test_project-velf.dir/clean:
 .PHONY : CMakeFiles/test_project-velf.dir/clean
 
 CMakeFiles/test_project-velf.dir/depend:
-	cd /home/alfre/Desktop/SDL_test_vita/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfre/Desktop/SDL_test_vita /home/alfre/Desktop/SDL_test_vita /home/alfre/Desktop/SDL_test_vita/build /home/alfre/Desktop/SDL_test_vita/build /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project-velf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfre/Desktop/SDL_learning/SDL_triangle_vita /home/alfre/Desktop/SDL_learning/SDL_triangle_vita /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project-velf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_project-velf.dir/depend
 

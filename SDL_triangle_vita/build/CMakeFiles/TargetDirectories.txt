@@ -1,6 +1,6 @@
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project.dir
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project-velf.dir
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project.self-self.dir
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/test_project.vpk-vpk.dir
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/edit_cache.dir
-/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles/rebuild_cache.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project-velf.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project.self-self.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/test_project.vpk-vpk.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/edit_cache.dir
+/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles/rebuild_cache.dir

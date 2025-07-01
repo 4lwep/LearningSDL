@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_test_vita
+CMAKE_SOURCE_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_test_vita/build
+CMAKE_BINARY_DIR = /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/test_project.vpk-vpk.dir/clean
 CMakeFiles/test_project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.dir/build.make CMakeFiles/test_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.dir/build.make CMakeFiles/test_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=1,2 "Built target test_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=1,2 "Built target test_project"
 .PHONY : CMakeFiles/test_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_project.dir/rule
 
 # Convenience name for target.
@@ -111,7 +111,7 @@ test_project: CMakeFiles/test_project.dir/rule
 # codegen rule for target.
 CMakeFiles/test_project.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.dir/build.make CMakeFiles/test_project.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=1,2 "Finished codegen for target test_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=1,2 "Finished codegen for target test_project"
 .PHONY : CMakeFiles/test_project.dir/codegen
 
 # clean rule for target.
@@ -126,14 +126,14 @@ CMakeFiles/test_project.dir/clean:
 CMakeFiles/test_project-velf.dir/all: CMakeFiles/test_project.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project-velf.dir/build.make CMakeFiles/test_project-velf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project-velf.dir/build.make CMakeFiles/test_project-velf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=3 "Built target test_project-velf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=3 "Built target test_project-velf"
 .PHONY : CMakeFiles/test_project-velf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_project-velf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_project-velf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_project-velf.dir/rule
 
 # Convenience name for target.
@@ -143,7 +143,7 @@ test_project-velf: CMakeFiles/test_project-velf.dir/rule
 # codegen rule for target.
 CMakeFiles/test_project-velf.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project-velf.dir/build.make CMakeFiles/test_project-velf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=3 "Finished codegen for target test_project-velf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=3 "Finished codegen for target test_project-velf"
 .PHONY : CMakeFiles/test_project-velf.dir/codegen
 
 # clean rule for target.
@@ -159,14 +159,14 @@ CMakeFiles/test_project.self-self.dir/all: CMakeFiles/test_project.dir/all
 CMakeFiles/test_project.self-self.dir/all: CMakeFiles/test_project-velf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.self-self.dir/build.make CMakeFiles/test_project.self-self.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.self-self.dir/build.make CMakeFiles/test_project.self-self.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=4 "Built target test_project.self-self"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=4 "Built target test_project.self-self"
 .PHONY : CMakeFiles/test_project.self-self.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_project.self-self.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_project.self-self.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_project.self-self.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ test_project.self-self: CMakeFiles/test_project.self-self.dir/rule
 CMakeFiles/test_project.self-self.dir/codegen: CMakeFiles/test_project.dir/all
 CMakeFiles/test_project.self-self.dir/codegen: CMakeFiles/test_project-velf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.self-self.dir/build.make CMakeFiles/test_project.self-self.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=4 "Finished codegen for target test_project.self-self"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=4 "Finished codegen for target test_project.self-self"
 .PHONY : CMakeFiles/test_project.self-self.dir/codegen
 
 # clean rule for target.
@@ -192,14 +192,14 @@ CMakeFiles/test_project.self-self.dir/clean:
 CMakeFiles/test_project.vpk-vpk.dir/all: CMakeFiles/test_project.self-self.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.vpk-vpk.dir/build.make CMakeFiles/test_project.vpk-vpk.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.vpk-vpk.dir/build.make CMakeFiles/test_project.vpk-vpk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=5,6 "Built target test_project.vpk-vpk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=5,6 "Built target test_project.vpk-vpk"
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_project.vpk-vpk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_project.vpk-vpk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_test_vita/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ test_project.vpk-vpk: CMakeFiles/test_project.vpk-vpk.dir/rule
 # codegen rule for target.
 CMakeFiles/test_project.vpk-vpk.dir/codegen: CMakeFiles/test_project.self-self.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_project.vpk-vpk.dir/build.make CMakeFiles/test_project.vpk-vpk.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_test_vita/build/CMakeFiles --progress-num=5,6 "Finished codegen for target test_project.vpk-vpk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/build/CMakeFiles --progress-num=5,6 "Finished codegen for target test_project.vpk-vpk"
 .PHONY : CMakeFiles/test_project.vpk-vpk.dir/codegen
 
 # clean rule for target.

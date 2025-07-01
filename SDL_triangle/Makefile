@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS = -Wall -g $(shell sdl2-config --cflags)
-LDFLAGS = $(shell sdl2-config --libs)
+LDFLAGS = $(shell sdl2-config --libs) -lSDL2_image
 OUTPUT_DIR = output
 
 all: $(OUTPUT_DIR)/main clean run

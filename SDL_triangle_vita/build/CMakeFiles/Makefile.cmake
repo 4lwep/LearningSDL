@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/alfre/Desktop/SDL_test_vita/CMakeLists.txt"
+  "/home/alfre/Desktop/SDL_learning/SDL_triangle_vita/CMakeLists.txt"
   "CMakeFiles/4.0.3-dirty/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.3-dirty/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3-dirty/CMakeSystem.cmake"
