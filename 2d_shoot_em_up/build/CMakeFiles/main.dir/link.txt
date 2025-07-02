@@ -1,1 +1,1 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.c.o -o /home/alfre/Desktop/SDL_learning/SDL_sprite/output/main  /usr/lib/libSDL2main.a /usr/lib/libSDL2-2.0.so.0.3200.56 -lSDL2_image
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.c.o -o /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/output/main  /usr/lib/libSDL2main.a /usr/lib/libSDL2-2.0.so.0.3200.56 -lSDL2_image

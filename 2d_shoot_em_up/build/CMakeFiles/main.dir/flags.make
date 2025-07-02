@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/alfre/Desktop/SDL_learning/SDL_sprite/src -isystem /usr/include/SDL2
+C_INCLUDES = -I/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src -isystem /usr/include/SDL2
 
 C_FLAGS = -std=gnu11 -Wall -g
 

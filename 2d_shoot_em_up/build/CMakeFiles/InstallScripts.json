@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/alfre/Desktop/SDL_learning/SDL_sprite/build/cmake_install.cmake"
+		"/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

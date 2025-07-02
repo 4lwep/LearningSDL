@@ -2,17 +2,17 @@
 #include<struct.h>
 #include<defs.h>
 
-int initSDL(){
+void initSDL(){
     int rendererFlags, windowFlags;
 
     rendererFlags = SDL_RENDERER_ACCELERATED;
 
     windowFlags = 0;
 
-    if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
+    if (SDL_Init(SDL_INIT_VIDEO) < 0)
     {
-        printf( "SDL could not initialize! SDL_Error: %s\n", SDL_GetError() );
-        return 1;
+        printf("Couldn't initialize SDL: %s\n", SDL_GetError());
+        exit(1);
     }
 
     app.window = SDL_CreateWindow("Shooter 01", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
@@ -32,6 +32,4 @@ int initSDL(){
         printf("Failed to create renderer: %s\n", SDL_GetError());
         exit(1);
     }
-
-    return 0;
 }

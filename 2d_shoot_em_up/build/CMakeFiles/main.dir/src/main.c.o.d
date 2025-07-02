@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/main.c.o: \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/main.c \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.c \
  /usr/include/stdc-predef.h /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_platform.h \
@@ -193,9 +193,9 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/SDL2/SDL_misc.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
  /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/defs.h \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/input.c \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/init.c \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/struct.h \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/draw.h \
- /home/alfre/Desktop/SDL_learning/SDL_sprite/src/init.h
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/defs.h \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.c \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.h \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.h

@@ -1,3 +1,3 @@
-/home/alfre/Desktop/SDL_learning/SDL_sprite/build/CMakeFiles/main.dir
-/home/alfre/Desktop/SDL_learning/SDL_sprite/build/CMakeFiles/edit_cache.dir
-/home/alfre/Desktop/SDL_learning/SDL_sprite/build/CMakeFiles/rebuild_cache.dir
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/build/CMakeFiles/main.dir
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/build/CMakeFiles/edit_cache.dir
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/build/CMakeFiles/rebuild_cache.dir
