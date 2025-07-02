@@ -10,41 +10,30 @@ void doKeyDown(SDL_KeyboardEvent *event)
         if (event->keysym.scancode == SDL_SCANCODE_LEFT) app.left = 1;
 
         if (event->keysym.scancode == SDL_SCANCODE_RIGHT) app.right = 1;
+
+        if (event->keysym.scancode == SDL_SCANCODE_E) app.fire = 1;
     }
 }
 
-void doKeyUp(SDL_KeyboardEvent *event)
-{
+void doKeyUp(SDL_KeyboardEvent *event){
     if (event->repeat == 0)
     {
-        if (event->keysym.scancode == SDL_SCANCODE_UP)
-        {
-            app.up = 0;
-        }
+        if (event->keysym.scancode == SDL_SCANCODE_UP) app.up = 0;
 
-        if (event->keysym.scancode == SDL_SCANCODE_DOWN)
-        {
-            app.down = 0;
-        }
+        if (event->keysym.scancode == SDL_SCANCODE_DOWN) app.down = 0;
 
-        if (event->keysym.scancode == SDL_SCANCODE_LEFT)
-        {
-            app.left = 0;
-        }
+        if (event->keysym.scancode == SDL_SCANCODE_LEFT) app.left = 0;
 
-        if (event->keysym.scancode == SDL_SCANCODE_RIGHT)
-        {
-            app.right = 0;
-        }
+        if (event->keysym.scancode == SDL_SCANCODE_RIGHT) app.right = 0;
+
+        if (event->keysym.scancode == SDL_SCANCODE_E) app.fire = 0;
     }
 }
 
-void doInput(void)
-{
+void doInput(void){
     SDL_Event event;
 
-    while (SDL_PollEvent(&event))
-    {
+    while (SDL_PollEvent(&event)){
         switch (event.type){
             case SDL_QUIT:
                 exit(0);
