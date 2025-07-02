@@ -39,8 +39,7 @@ int main(int argc, char *argv[])
 
     remainder = 0;
 
-    while (1)
-    {
+    while (!windowShouldClose){
         prepareScene();
 
         doInput();

@@ -19,7 +19,7 @@ void doInput(void){
     while (SDL_PollEvent(&event)){
         switch (event.type){
             case SDL_QUIT:
-                exit(0);
+                windowShouldClose = true;
                 break;
 
             case SDL_KEYDOWN:
