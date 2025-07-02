@@ -1,0 +1,1 @@
+bool windowShouldClose = false;
