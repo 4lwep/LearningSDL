@@ -1,1 +1,1 @@
-En este proyecto estaré siguiendo la [este](https://www.parallelrealities.co.uk/tutorials/shooter/shooter1.php) artículo
+En este proyecto estaré siguiendo [este](https://www.parallelrealities.co.uk/tutorials/shooter/shooter1.php) artículo
