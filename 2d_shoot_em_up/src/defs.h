@@ -1,2 +1,7 @@
 #define SCREEN_WIDTH   960
 #define SCREEN_HEIGHT  544
+
+#define PLAYER_SPEED          4
+#define PLAYER_BULLET_SPEED   16
+
+#define MAX_KEYBOARD_KEYS 350

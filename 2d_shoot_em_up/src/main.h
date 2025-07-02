@@ -3,4 +3,4 @@
 #include<stdbool.h>
 #include<SDL2/SDL_image.h>
 #include<defs.h>
-#include<input.c>
+#include<stage.c>

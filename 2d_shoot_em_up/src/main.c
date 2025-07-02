@@ -1,72 +1,57 @@
 #include<main.h>
 
-int main(int argc, char *argv[]){
+static void capFrameRate(long *then, float *remainder)
+{
+    long wait, frameTime;
+
+    wait = 16 + *remainder;
+
+    *remainder -= (int)*remainder;
+
+    frameTime = SDL_GetTicks() - *then;
+
+    wait -= frameTime;
+
+    if (wait < 1)
+    {
+        wait = 1;
+    }
+
+    SDL_Delay(wait);
+
+    *remainder += 0.667;
+
+    *then = SDL_GetTicks();
+}
+
+int main(int argc, char *argv[])
+{
+    long then;
+    float remainder;
+
     memset(&app, 0, sizeof(App));
-    memset(&player, 0, sizeof(Entity));
 
     initSDL();
 
-    player.x = 100;
-    player.y = 100;
-    player.texture = loadTexture("../assets/personaje.png");
+    initStage();
 
-    memset(&bullet, 0, sizeof(Entity));
-    bullet.texture = loadTexture("../assets/bala.png");
+    then = SDL_GetTicks();
 
-    while (1){
+    remainder = 0;
+
+    while (1)
+    {
         prepareScene();
 
         doInput();
 
-        player.x += player.dx;
-        player.y += player.dy;
+        app.delegate.logic();
 
-        if (app.up)
-        {
-            player.y -= 4;
-        }
-
-        if (app.down)
-        {
-            player.y += 4;
-        }
-
-        if (app.left)
-        {
-            player.x -= 4;
-        }
-
-        if (app.right)
-        {
-            player.x += 4;
-        }
-
-        if (app.fire && bullet.health == 0){
-            bullet.x = player.x + 35;
-            bullet.y = player.y + 35;
-            bullet.dx = 16;
-            bullet.dy = 0;
-            bullet.health = 1;
-        }
-
-        bullet.x += bullet.dx;
-        bullet.y += bullet.dy;
-
-        if (bullet.x > SCREEN_WIDTH)
-        {
-            bullet.health = 0;
-        }
-
-        blit(player.texture, player.x, player.y);
-
-        if (bullet.health > 0)
-        {
-            blit(bullet.texture, bullet.x, bullet.y);
-        }
+        app.delegate.draw();
 
         presentScene();
 
-        SDL_Delay(16);
+        capFrameRate(&then, &remainder);
     }
 
     return 0;

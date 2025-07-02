@@ -60,9 +60,11 @@ CMakeFiles/main.dir/src/main.c.o
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.c
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.h
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.h
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.c
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.h
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.h
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/stage.c
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
