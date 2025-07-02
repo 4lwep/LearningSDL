@@ -10,6 +10,7 @@
         "span": "c",
         "stdbool.h": "c",
         "struct.h": "c",
-        "defs.h": "c"
+        "defs.h": "c",
+        "draw.h": "c"
     }
 }

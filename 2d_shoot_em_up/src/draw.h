@@ -1,5 +1,6 @@
 #include<SDL2/SDL.h>
-#include<init.h>
+#include<SDL2/SDL_image.h>
+#include<init.c>
 
 void prepareScene(void)
 {

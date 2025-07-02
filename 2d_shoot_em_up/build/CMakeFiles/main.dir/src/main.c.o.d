@@ -193,10 +193,11 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/SDL2/SDL_misc.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
  /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.h \
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/defs.h \
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.c \
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.h \
- /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c \
- /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.c \
  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.h \
- /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.h
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c \
+ /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h

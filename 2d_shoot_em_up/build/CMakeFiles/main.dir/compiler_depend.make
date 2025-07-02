@@ -55,10 +55,11 @@
 
 CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.c \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/defs.h \
+  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.c \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.h \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c \
-  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.h \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.c \
+  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.h \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
@@ -393,6 +394,8 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/fmaintrin.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/float.h:
+
 /usr/include/string.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchwintrin.h:
@@ -455,10 +458,6 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxfp16intrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/hresetintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cldemoteintrin.h:
-
 /usr/include/SDL2/SDL_misc.h:
 
 /usr/include/SDL2/SDL_locale.h:
@@ -513,6 +512,16 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/include/stdlib.h:
 
+/usr/include/SDL2/SDL.h:
+
+/usr/include/SDL2/begin_code.h:
+
+/usr/include/SDL2/SDL_version.h:
+
+/usr/lib/libz.so.1:
+
+/usr/include/bits/uintn-identity.h:
+
 /usr/lib/libbrotlidec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xtestintrin.h:
@@ -528,6 +537,14 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxcomplexintrin.h:
 
 /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h:
+
+/usr/include/SDL2/SDL_joystick.h:
+
+/usr/include/SDL2/SDL_video.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/lib32/libbrotlidec.so.1:
 
 /usr/include/SDL2/SDL_clipboard.h:
 
@@ -552,16 +569,6 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bf16vlintrin.h:
 
 /usr/lib/libgcc_s.so:
-
-/usr/include/SDL2/SDL_joystick.h:
-
-/usr/include/SDL2/SDL_video.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/lib32/libbrotlidec.so.1:
-
-/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.h:
 
 /usr/include/SDL2/SDL_stdinc.h:
 
@@ -600,6 +607,8 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 /usr/include/SDL2/SDL_gesture.h:
 
 /usr/include/ctype.h:
+
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.h:
 
 /usr/lib/libSDL2main.a:
 
@@ -719,21 +728,17 @@ CMakeFiles/main.dir/src/main.c.o:
 
 /usr/include/SDL2/SDL_system.h:
 
-/usr/include/SDL2/SDL.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/hresetintrin.h:
 
-/usr/include/SDL2/begin_code.h:
-
-/usr/include/SDL2/SDL_version.h:
-
-/usr/lib/libz.so.1:
-
-/usr/include/bits/uintn-identity.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cldemoteintrin.h:
 
 /usr/include/bits/mathcalls.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxint8intrin.h:
+
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/draw.c:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -934,5 +939,3 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/emmintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/f16cintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/float.h:
