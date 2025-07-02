@@ -11,6 +11,7 @@
         "stdbool.h": "c",
         "struct.h": "c",
         "defs.h": "c",
-        "draw.h": "c"
+        "draw.h": "c",
+        "input.h": "c"
     }
 }

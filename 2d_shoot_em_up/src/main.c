@@ -1,8 +1,3 @@
-#include<SDL2/SDL.h>
-#include<stdio.h>
-#include<stdbool.h>
-#include<SDL2/SDL_image.h>
-
 #include<main.h>
 
 int main(int argc, char *argv[]){
@@ -15,11 +10,31 @@ int main(int argc, char *argv[]){
     player.y = 100;
     player.texture = loadTexture("../assets/personaje.png");
 
-    while(!windowShouldClose)
-    {
+
+    while (1){
         prepareScene();
 
         doInput();
+
+        if (app.up)
+        {
+            player.y -= 4;
+        }
+
+        if (app.down)
+        {
+            player.y += 4;
+        }
+
+        if (app.left)
+        {
+            player.x -= 4;
+        }
+
+        if (app.right)
+        {
+            player.x += 4;
+        }
 
         blit(player.texture, player.x, player.y);
 

@@ -10,8 +10,7 @@ SDL_Texture *loadTexture(char *filename){
     return texture;
 }
 
-void blit(SDL_Texture *texture, int x, int y)
-{
+void blit(SDL_Texture *texture, int x, int y){
     SDL_Rect dest;
 
     dest.x = x;

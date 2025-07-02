@@ -60,6 +60,7 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/init.c \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.c \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/input.h \
+  /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.h \
   /home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
@@ -396,7 +397,7 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/float.h:
 
-/usr/include/string.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/f16cintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchwintrin.h:
 
@@ -474,10 +475,6 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/include/SDL2/SDL_guid.h:
 
-/usr/include/SDL2/SDL_surface.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmi2intrin.h:
-
 /usr/include/SDL2/SDL_platform.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512minmaxintrin.h:
@@ -522,21 +519,15 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/include/bits/uintn-identity.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxcomplexintrin.h:
+
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h:
+
 /usr/lib/libbrotlidec.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xtestintrin.h:
-
-/usr/include/SDL2/SDL_hints.h:
-
-/usr/lib/libjpeg.so.8:
 
 /usr/lib/libaom.so.3:
 
 /usr/lib/crtn.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxcomplexintrin.h:
-
-/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/struct.h:
 
 /usr/include/SDL2/SDL_joystick.h:
 
@@ -612,12 +603,6 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/lib/libSDL2main.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchiintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512mediaintrin.h:
-
-/usr/lib/libc_nonshared.a:
-
 /usr/include/bits/endianness.h:
 
 /usr/include/features.h:
@@ -631,6 +616,12 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 /usr/include/bits/fp-logb.h:
 
 /usr/lib32/libpng16.so.16:
+
+/usr/include/SDL2/SDL_surface.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmi2intrin.h:
+
+/home/alfre/Desktop/LearningSDL/2d_shoot_em_up/src/main.h:
 
 /usr/lib/libbrotlienc.so.1:
 
@@ -704,6 +695,18 @@ CMakeFiles/main.dir/src/main.c.o: /home/alfre/Desktop/LearningSDL/2d_shoot_em_up
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512dqintrin.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xtestintrin.h:
+
+/usr/lib/libjpeg.so.8:
+
+/usr/include/SDL2/SDL_hints.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchiintrin.h:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512mediaintrin.h:
+
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/SDL2/SDL_mouse.h:
@@ -727,6 +730,8 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/popcntintrin.h:
 
 /usr/include/SDL2/SDL_system.h:
+
+/usr/include/string.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/hresetintrin.h:
 
@@ -937,5 +942,3 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cmpccxaddintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/f16cintrin.h:
